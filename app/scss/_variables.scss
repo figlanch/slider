@@ -1,0 +1,16 @@
+//COLORS
+$primaryColor: #FFFFFF;
+$secondaryColor: #232323;
+$backgroundColor: #232f3e;
+
+//FONTS
+$primaryCopy: Arial, verdana, sans-serif;
+
+//WEIGHTS
+$regular: 400;
+$bold: 700;
+
+//SIZES
+$base_font_size: 16px;
+$large: 960px;//this should be the same as the max-width of your content
+$medium: (($base_font_size/$large)*100) + vw;

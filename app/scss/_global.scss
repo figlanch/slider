@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+html,
+body{
+    font-size: 2.5vw; //sets a base font size of 16px for creative set to a width of 640px
+    /*
+        font-size: 2.13334vw; //sets a base font size of 16px for creative set to a width of 750px
+    */
+
+    @include medium{
+        font-size:$medium;//scaling content but will look like the large layout
+    }
+    @include large{
+        font-size:16px;//we no longer want to scale content
+    }
+}
+body {
+    background: $backgroundColor;
+    color: $primaryColor;
+    text-align: center;
+    font-family: $primaryCopy;
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.2;
+}
+footer,
+header,
+main,
+nav {
+    display: block; // some browsers don't have a default display value for these elements
+}
+.hidden {
+    display: none;
+}
+h2 {
+    font-size: cRems(55px);
+    font-weight: 700;
+    padding: 0 0 cRems(22px) 0;
+
+    @include medium {
+        font-size: cRems(45px);
+        padding: 0 0 cRems(13px) 0;
+    }
+}
+h3 {
+    font-size: cRems(18px);
+    font-weight: 700;
+    padding: cRems(10px) 0 0;
+    width: 95%;
+    margin: 0 auto;
+    min-height: cRems(52px);
+
+    @include medium {
+        font-size: cRems(18px);
+        padding: cRems(10px) 0 0;
+    }
+}
+p {
+    font-size: cRems(18px);
+    padding: cRems(10px) 0;
+
+    @include medium {
+        font-size: cRems(16px);
+        padding: cRems(2px) 0 cRems(8px);
+    }
+}
+.slider {
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-bottom: cRems(20px);
+}
+.slider-container {
+    display: flex;
+    // transition: all 0.2s ease;
+    position: relative;
+    padding: cRems(16px) 0 cRems(72px);
+    transition: all 250ms cubic-bezier(1.000, 0.060, 0.785, 0.645);
+    transition-timing-function: cubic-bezier(1.000, 0.060, 0.785, 0.645);
+    -webkit-overflow-scrolling: touch;
+    left: 0;
+
+    @include medium {
+        padding: cRems(16px) 0 cRems(56px);
+    }
+
+    .item {
+        flex: 1 0 33%;
+        text-decoration: none;
+        color: $secondaryColor;
+        position: relative;
+        transition: all 0.2s ease;
+
+        @include medium {
+            flex: 1 0 20%;
+
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        img {
+            width: 85%;
+            margin: 0 auto;
+        }
+    }
+}
+.slide-left, .slide-right {
+    position: absolute;
+    // background: rgba(238, 248, 253, 0.8);
+    width: cRems(60px);
+    color: $primaryColor;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    bottom: cRems(24px);
+
+    @include medium {
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+
+    .fas {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: cRems(55px);
+        padding: 0 cRems(8px);
+
+        @include medium {
+            font-size: cRems(30px);
+        }
+    }
+}
+.slide-left {
+    left: 0;
+}
+.slide-right {
+    right: 0;
+}
+.product-info {
+    position: absolute;
+    bottom: 0;
+    width: 85.5%;
+    background: rgba(255, 255, 255, 0.9);
+    left: 50%;
+    transform: translate(-50%, 0);
+}

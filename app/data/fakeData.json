@@ -1,0 +1,94 @@
+{
+    "items": [
+        {
+            "id":19202,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/358519/358519._SX276_QL80_TTD_.jpg",
+            "name": "C-3PO",
+            "price": 110
+        },
+        {
+            "id":19203,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/359305/359305._SX276_QL80_TTD_.jpg",
+            "name": "Batman Superman",
+            "price": 91
+        },
+        {
+            "id":19204,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/344710/344710._SX276_QL80_TTD_.jpg",
+            "name": "Goldie Vance",
+            "price": 94.5
+        },
+        {
+          "id":19205,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/358489/358489._SX276_QL80_TTD_.jpg",
+            "name": "All New X-Men",
+            "price": 438.9
+        },
+        {
+          "id":19206,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/367864/367864._SX276_QL80_TTD_.jpg",
+            "name": "Abe Sapien",
+            "price": 20
+        },
+        {
+          "id":19207,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/781524/781524._SX312_QL80_TTD_.jpg",
+            "name": "Powers of X",
+            "price": 15.5
+        },
+        {
+          "id":19208,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/789474/789474._SX312_QL80_TTD_.jpg",
+            "name": "Batman",
+            "price": 18.9
+        },
+        {
+          "id":19209,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/783181/783181._SX276_CLs|276,419|cu/cmx-cu-sash-lg.png|0,0,277,420 164,307,112,112_QL80_TTD_.jpg",
+            "name": "The Pride",
+            "price": 200.1
+        },
+        {
+          "id":19210,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/781394/781394._SX312_QL80_TTD_.jpg",
+            "name": "Guardians of the Galaxy",
+            "price": 100.6
+        },
+        {
+          "id":19211,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/781649/781649._SX312_QL80_TTD_.jpg",
+            "name": "Valkyrie: Jane Foster",
+            "price": 311.11
+        },
+        {
+          "id":19212,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/781329/781329._SX312_QL80_TTD_.jpg",
+            "name": "Daredevil",
+            "price": 99.77
+        },
+        {
+          "id":19213,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/799297/799297._SX312_QL80_TTD_.jpg",
+            "name": "Batman Family",
+            "price": 75.95
+        },
+        {
+          "id":19214,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/799277/799277._SX312_QL80_TTD_.jpg",
+            "name": "Deadman: Dead Again",
+            "price": 137.35
+        },
+        {
+          "id":19215,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/694049/694049._SX360_QL80_TTD_.jpg",
+            "name": "Iceman",
+            "price": 91
+        },
+        {
+          "id":19216,
+            "imgUrl": "https://images-na.ssl-images-amazon.com/images/S/cmx-images-prod/Item/793354/793354._SX312_QL80_TTD_.jpg",
+            "name": "Ms. Marvel",
+            "price": 180.55
+        }
+    ]
+}
